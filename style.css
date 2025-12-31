@@ -134,7 +134,11 @@ body.dark-mode #snapshotImage {
   border-radius: 15px;
   box-shadow: 0 0 14px rgba(0,0,0,0.15);
   text-align: left;
-  display: none;
+  display: block;
+}
+
+.hidden {
+  display: none !important;
 }
 
 body.dark-mode .info-container {
@@ -142,6 +146,14 @@ body.dark-mode .info-container {
   color: #e0ffff;
   box-shadow: 0 0 18px rgba(0,255,255,0.4);
 }
+
+@media (max-width: 768px) {
+  .info-container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+} 
 
 /* =====================================================
    🔘 BUTTON
