@@ -134,7 +134,7 @@ body.dark-mode #snapshotImage {
   border-radius: 15px;
   box-shadow: 0 0 14px rgba(0,0,0,0.15);
   text-align: left;
-  display: block;
+  display: none;
 }
 
 .hidden {
@@ -261,3 +261,4 @@ body.dark-mode .info-container button {
   border: 1px solid #00ffff88;
   box-shadow: 0 0 10px rgba(0,255,255,0.4);
 }
+
